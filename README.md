@@ -1,4 +1,6 @@
-atclegonxt
+Android Lego NXT App
 ==========
 
-Lego NXT Android app
+Simple Android app for handling a Lego NXT with the standard mount.
+
+Uses project Lejos as the interface connectivity to the robot.
