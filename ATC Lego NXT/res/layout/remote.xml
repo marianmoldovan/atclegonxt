@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal" >
+
+    <Button
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/ad"
+        android:onClick="adelante"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/iz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ad"
+        android:layout_toLeftOf="@+id/ad"
+        android:background="@drawable/iz"
+        android:onClick="izquierda"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ad"
+        android:layout_toRightOf="@+id/ad"
+        android:background="@drawable/de"
+        android:onClick="derecha"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iz"
+        android:layout_toRightOf="@+id/iz"
+        android:background="@drawable/at"
+        android:onClick="atras"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/izad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ad"
+        android:layout_alignRight="@+id/iz"
+        android:background="@drawable/izad"
+        android:onClick="izquierdaAdelante"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/dead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ad"
+        android:layout_alignLeft="@+id/de"
+        android:background="@drawable/dead"
+        android:onClick="derechaAdelante"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/izat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/iz"
+        android:layout_alignTop="@+id/at"
+        android:background="@drawable/izat"
+        android:onClick="izquierdaAtras"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/deat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/de"
+        android:layout_alignTop="@+id/at"
+        android:background="@drawable/deat"
+        android:onClick="derechaAtras"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/st"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/iz"
+        android:layout_alignBottom="@+id/iz"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/st"
+        android:onClick="stop"
+        android:text="@string/vacio" />
+
+    <SeekBar
+        android:id="@+id/nivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iz"
+        android:layout_alignRight="@+id/de"
+        android:layout_below="@+id/at"
+        android:layout_marginTop="15dip"
+        android:progress="80" />
+
+    <Button
+        android:id="@+id/voz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/voz"
+        android:onClick="comandoVoz"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/atack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/voz"
+        android:layout_alignLeft="@+id/nivel"
+        android:background="@drawable/atack"
+        android:onClick="ataca"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/atack"
+        android:layout_alignBottom="@+id/atack"
+        android:layout_alignLeft="@+id/at"
+        android:background="@drawable/play"
+        android:onClick="juega"
+        android:text="@string/vacio" />
+
+    <Button
+        android:id="@+id/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/voz"
+        android:layout_alignRight="@+id/nivel"
+        android:background="@drawable/sound"
+        android:onClick="saluda"
+        android:text="@string/vacio" />
+
+</RelativeLayout>

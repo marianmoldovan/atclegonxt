@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ATC NXT Lego</string>
+    <string name="Adelante">Adelante</string>
+    <string name="Izquierda">Izquierda</string>
+    <string name="Derecha">Derecha</string>
+    <string name="Atras">Atras</string>
+    <string name="Juega">Juega</string>
+    <string name="Para">Para</string>
+    <string name="vacio"></string>
+    <string name="voz">Voz</string>
+    <string name="activar_bluetooth">Activate Bluetooth</string>
+    <string name="sincronizar">Sinchronize NXT</string>
+    <string name="atcmec">Mecatronica 2011-2012, ATC NXT Lego</string>
+    <string name="info">Info</string>
+    <string name="connect">Connect</string>
+    <string name="atcdes">ATC Department icon</string>
+
+</resources>
